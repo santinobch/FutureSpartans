@@ -1,0 +1,52 @@
+{
+    "entries" :[
+        {
+		"key": "THAUMIUM_WEAPONRY",
+		"name": "research.futurespartans:THAUMIUM_WEAPONRY.title",
+		"icons": [ "futurespartans:textures/items/dagger_thaumium.png", "futurespartans:textures/items/longsword_thaumium.png",
+		       "futurespartans:textures/items/katana_thaumium.png", "futurespartans:textures/items/saber_thaumium.png",
+		       "futurespartans:textures/items/rapier_thaumium.png", "futurespartans:textures/items/greatsword_thaumium.png",
+		       "futurespartans:textures/items/hammer_thaumium.png", "futurespartans:textures/items/warhammer_thaumium.png",
+		       "futurespartans:textures/items/spear_thaumium.png", "futurespartans:textures/items/halberd_thaumium.png",
+		       "futurespartans:textures/items/pike_thaumium.png", "futurespartans:textures/items/lance_thaumium.png",
+               "futurespartans:textures/items/longbow_thaumium_standby.png", "futurespartans:textures/items/crossbow_thaumium_standby.png",
+		       "futurespartans:textures/items/throwing_knife_thaumium.png", "futurespartans:textures/items/throwing_axe_thaumium.png",
+		       "futurespartans:textures/items/javelin_thaumium.png", "futurespartans:textures/items/boomerang_thaumium.png",
+		       "futurespartans:textures/items/battleaxe_thaumium.png", "futurespartans:textures/items/mace_thaumium.png",
+		       "futurespartans:textures/items/glaive_thaumium.png", "futurespartans:textures/items/quarterstaff_thaumium.png",
+		       "futurespartans:textures/items/parrying_dagger_thaumium.png"],
+		"category": "ALCHEMY", "location": [ 6,6 ],
+		"parents": [ "METALLURGY" ],
+        "stages": [
+                {
+                    "text": "research.futurespartans:THAUMIUM_WEAPONRY.stage.1",
+					"recipes": ["futurespartans:thaumium_weaponry"]
+				}
+			]
+		},
+		{
+        "key": "VOID_WEAPONRY",
+        "name": "research.futurespartans:VOID_WEAPONRY.title",
+        "icons": [ "futurespartans:textures/items/dagger_voidmetal.png", "futurespartans:textures/items/longsword_voidmetal.png",
+               "futurespartans:textures/items/katana_voidmetal.png", "futurespartans:textures/items/saber_voidmetal.png",
+               "futurespartans:textures/items/rapier_voidmetal.png", "futurespartans:textures/items/greatsword_voidmetal.png",
+               "futurespartans:textures/items/hammer_voidmetal.png", "futurespartans:textures/items/warhammer_voidmetal.png",
+               "futurespartans:textures/items/spear_voidmetal.png", "futurespartans:textures/items/halberd_voidmetal.png",
+               "futurespartans:textures/items/pike_voidmetal.png", "futurespartans:textures/items/lance_voidmetal.png",
+               "futurespartans:textures/items/longbow_voidmetal_standby.png", "futurespartans:textures/items/crossbow_voidmetal_standby.png",
+               "futurespartans:textures/items/throwing_knife_voidmetal.png", "futurespartans:textures/items/throwing_axe_voidmetal.png",
+               "futurespartans:textures/items/javelin_voidmetal.png", "futurespartans:textures/items/boomerang_voidmetal.png",
+               "futurespartans:textures/items/battleaxe_voidmetal.png", "futurespartans:textures/items/mace_voidmetal.png",
+               "futurespartans:textures/items/glaive_voidmetal.png", "futurespartans:textures/items/quarterstaff_voidmetal.png",
+               "futurespartans:textures/items/parrying_dagger_voidmetal.png"],
+        "category": "ELDRITCH", "location": [ 3,5 ],
+        "parents": [ "BASEELDRITCH" ],
+        "stages": [
+                {
+                    "text": "research.futurespartans:VOID_WEAPONRY.stage.1",
+                    "recipes": ["futurespartans:void_weaponry"]
+                }
+            ]
+        }
+	]
+}

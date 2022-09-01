@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import com.oblivioussp.spartanweaponry.item.*;
 import com.santinobch.futurespartans.FutureSpartans;
-import com.santinobch.futurespartans.client.gui.CreativeTabsSWA;
+import com.santinobch.futurespartans.client.gui.CreativeTabsFS;
 import com.santinobch.futurespartans.utils.LogHelper;
 import com.santinobch.futurespartans.utils.ModHelper;
 import com.santinobch.futurespartans.item.*;
@@ -25,11 +25,13 @@ import thedarkcolour.futuremc.item.FToolMaterial;
 
 
 @EventBusSubscriber(modid = FutureSpartans.MOD_ID)
-public class ItemRegistrySWA {
+public class ItemRegistryFS {
 
     public static ToolMaterialEx materialNetherite;
 
-    public static ItemMultiSWA material = (ItemMultiSWA) new ItemMultiSWA("material", "handle_livingwood", "pole_livingwood", "handle_dreamwood", "pole_dreamwood", "crossbow_limb_dreamwood").setCreativeTab(CreativeTabsSWA.TAB_SWA);
+    public static ItemMultiFS material = (ItemMultiFS) new ItemMultiFS(
+            "material",
+            "dagger_dawnstone", "glaive_dawnstone").setCreativeTab(CreativeTabsFS.TAB_SWA);
 
     public static Item
             daggerNetherite,

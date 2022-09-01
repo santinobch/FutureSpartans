@@ -1,0 +1,6 @@
+{
+    "parent": "spartanweaponry:item/crossbow_wood_pulling_0",
+    "textures": {
+        "layer0":"futurespartans:items/crossbow_dawnstone_loaded"
+    }
+}
